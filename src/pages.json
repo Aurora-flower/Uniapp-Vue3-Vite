@@ -1,0 +1,91 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "主页",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/member/index",
+      "style": {
+        "navigationBarTitleText": "用户管理",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/repair/index",
+      "style": {
+        "navigationBarTitleText": "维修",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/profile/index",
+      "style": {
+        "navigationBarTitleText": "个人中心",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/payment/index",
+      "style": {
+        "navigationBarTitleText": "缴费",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "House-M",
+    "navigationBarBackgroundColor": "#d7d7d7",
+    "backgroundColor": "#d7d7d7"
+  },
+  "tabBar": {
+    "color": "#6a7c75",
+    "selectedColor": "#b3c063",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "text": "房屋管理",
+        "pagePath": "pages/home/index",
+        "iconPath": "static/images/tabs/house.png",
+        "selectedIconPath": "static/images/tabs/house-active.png"
+      },
+      {
+        "text": "用户管理",
+        "pagePath": "pages/member/index",
+        "iconPath": "static/images/tabs/member.png",
+        "selectedIconPath": "static/images/tabs/member-active.png"
+      },
+      {
+        "text": "维修",
+        "pagePath": "pages/repair/index",
+        "iconPath": "static/images/tabs/repair.png",
+        "selectedIconPath": "static/images/tabs/repair-active.png"
+      },
+      {
+        "text": "缴费",
+        "pagePath": "pages/payment/index",
+        "iconPath": "static/images/tabs/payment.png",
+        "selectedIconPath": "static/images/tabs/payment-active.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/profile/index",
+        "iconPath": "static/images/tabs/profile.png",
+        "selectedIconPath": "static/images/tabs/profile-active.png"
+      }
+    ]
+  }
+}
